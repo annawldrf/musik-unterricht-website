@@ -14,3 +14,24 @@ h1, h2 {
   font-family: 'PT Serif', serif;
   font-weight: bold;
 }
+
+.group {
+  padding: 0 40px;
+}
+
+.group.orange {
+  background-color: #FFDDAB;
+}
+
+#ubermich {
+  display: flex;
+}
+
+.item {
+  width: 50%;
+}
+
+#playing-flute {
+  width: 60%;
+  border-radius: 25px;
+}
