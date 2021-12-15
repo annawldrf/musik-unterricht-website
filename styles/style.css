@@ -1,0 +1,16 @@
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18;
+}
+
+.homepage h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 40;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 45;
+  font-weight: bold;
+}
