@@ -1,3 +1,42 @@
+nav {
+position: sticky;
+top: 0;
+background-color: white;
+border-radius:0 0 20px 20px;
+}
+
+nav .container {
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+text-align: center;
+padding: 10px;
+}
+
+nav .container ul {
+margin-bottom: 0px;
+}
+nav .container ul li {
+display: inline-block;
+border-radius:5px;
+}
+
+nav .container ul li a {
+display: inline-block;
+text-decoration: none;
+padding: 10px 20px;
+color: black;
+}
+nav .container ul li.active {
+background-color: orange;
+border-radius:30px;
+transition: 0.3s;
+}
+nav .container ul li.active a {
+color: #ffffff;
+}
+
+
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 18;

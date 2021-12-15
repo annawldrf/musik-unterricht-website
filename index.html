@@ -12,47 +12,59 @@
     <link rel="stylesheet" href="styles/style.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
-    </style>
+      </style>
   </head>
   <body>
 
 <!-- Page's content = displayed on the page -->
 <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <ul>
+        <li class="homepage active"><a href="#homepage">Home</a></li>
+        <li class="ubermich"><a href="#ubermich">Über mich</a></li>
+        <li class="gitarre"><a href="#gitarre">Gitarre</a></li>
+        <li class="querflote"><a href="#querflote">Querflöte</a></li>
+        <li class="unterricht"><a href="#unterricht">Unterricht</a></li>
+        <li class="kontakt"><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<!-- <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#homepage">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Über mich">Über mich</a>
+        <a class="nav-link" href="#ubermich">Über mich</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Gitarre">Gitarre</a>
+        <a class="nav-link" href="#gitarre">Gitarre</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Querflöte">Querflöte</a>
+        <a class="nav-link" href="#querflote">Querflöte</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Unterricht">Unterricht</a>
+        <a class="nav-link" href="#unterricht">Unterricht</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Kontakt">Kontakt</a>
+        <a class="nav-link" href="#kontakt">Kontakt</a>
       </li>
     </ul>
   </div>
-</div>
+</div> -->
 
 <!-- homepage -->
 <div class="container">
-  <div class="homepage">
+  <section id="homepage">
     <h1>Rita Markgraf</h1>
     <h1>Unterricht für
     Gitarre und Querflöte
     in München</h1>
-  </div>
-  <div class="ubermich">
+  </section>
+  <section id="ubermich">
     <h1>Über mich</h1>
     <p> seit 2004 bin ich als selbständige Musiklehrerin tätig
 
@@ -75,8 +87,8 @@
 
         mit 5 Jahren besuchte ich die musikalische Früherziehung in der städt. Musikschule Landshut
     </p>
-  </div>
-  <div class="gitarre">
+  </section>
+  <section id="gitarre">
     <h1>Gitarre</h1>
     <p>
       Die Gitarre ist ein wunderbares Instrument. Der Klang und ihre Vielfalt haben mich sofort begeistert. Als Jugendliche
@@ -93,8 +105,8 @@
       Kinder haben oft noch zu kleine Hände und Arme, um auf der großen Gitarre spielen zu können. Dafür gibt es kleinere
       Gitarren. Bei mir stehen 3 kleinere Leihinstrumente zur Verfügung.
     </p>
-  </div>
-  <div class="querflote">
+  </section>
+  <section id="querflote">
     <h1>Querflöte</h1>
     <p>
       Was ich an der Querflöte liebe, ist ihr wunderschöner Klang. Das hat mich als Jugendliche inspiriert, dieses Instrument
@@ -111,8 +123,8 @@
 
       Zu all diesen Fragen berate ich Sie gerne.
     </p>
-  </div>
-  <div class="unterricht">
+  </section>
+  <section id="unterricht">
     <h1>Unterricht</h1>
     <p>
       Mir ist es wichtig, meinen Schüler/innen die Freude am Instrument und am Musizieren zu vermitteln. Neben einer fundierten
@@ -124,8 +136,8 @@
       kostenloses Treffen an. Der Unterrichtsraum ist mit öffentlichen Verkehrsmitteln gut zu erreichen: Haltestelle
       Max-Weber-Platz, Johannisplatz (U4/5, Tram 15/19/25)
     </p>
-  </div>
-  <div class="kontakt">
+  </section>
+  <section id="kontakt">
     <h1>Kontakt</h1>
     <p>Ich freue mich über Ihren Anruf oder eine Nachricht von Ihnen:</p>
     <p>Rita Markgraf
@@ -133,12 +145,13 @@
     81675 München
     089/4481681
     markgraf.rita@mnet-mail.de</p>
-  </div>
+  </section>
 </div>
 
-<!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+    <script src="scripts/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
