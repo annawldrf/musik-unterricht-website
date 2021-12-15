@@ -1,4 +1,5 @@
 @import 'components/navbar.css';
+@import 'components/timeline.css';
 
 /* Space on top of body so that navbar doesn't cover anything */
 
@@ -82,11 +83,25 @@ h1, h2 {
   display: flex;
 }
 
-.item {
-  width: 50%;
+.item.left {
+  width: 40%;
+  margin-top: 30px;
+}
+
+.item.right {
+  width: 60%;
+  margin-top: 30px;
+}
+
+.item h2 {
+  text-align: center;
 }
 
 #playing-flute {
-  width: 60%;
+  width: 80%;
   border-radius: 25px;
 }
+/*
+ul {
+  padding-inline-start: 0;
+} */
