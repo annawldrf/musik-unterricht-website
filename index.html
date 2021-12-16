@@ -53,7 +53,7 @@
 <!-- Über Mich -->
   <section class="group orange" id="ubermich">
     <div class="item left">
-      <img id="playing-flute" src='/images/Rita mit Instrumenten 160.JPG' alt="Rita spielt die Flöte.">
+      <img src="images/ritainstrumenten.JPG" alt="Rita spielt die Flöte." id="playing-flute">
     </div>
     <div class="item right">
       <h2>Über mich</h2>
@@ -124,22 +124,35 @@
   </section>
   <!-- Querflöte -->
   <section class="group orange" id="querflote">
-    <h2>Querflöte</h2>
-    <p>
-      Was ich an der Querflöte liebe, ist ihr wunderschöner Klang. Das hat mich als Jugendliche inspiriert, dieses Instrument
-      zu lernen.
+    <div class="container-flote">
+      <div class="flote-text">
+        <h2>Querflöte</h2>
+        <p>
+          Was ich an der Querflöte liebe, ist ihr wunderschöner Klang. Das hat mich als Jugendliche inspiriert, dieses Instrument
+          zu lernen. <br><br>
 
+<<<<<<< HEAD
       Die Flöte ist ein Soloinstrument, aber das heißt nicht, dass man immer alleine spielen muss. Ich begleite meine Schüler/innen
       gerne auf der Gitarre. Mittlerweile gibt es eine Fülle an Flötenliteratur mit verschiedenen Begleitinstrumenten auf CD.
       (Klavier, Orchester, Band) Von der Klassik über Jazz zum Pop.
+=======
+          Die Flöte ist ein Soloinstrument, aber das heißt nicht, dass man immer alleine spielen muss. Ich begleite meine Schüler
+          gerne auf der Gitarre. Mittlerweile gibt es eine Fülle an Flötenliteratur mit verschiedenen Begleitinstrumenten auf CD.
+          (Klavier, Orchester, Band) Von der Klassik über Jazz zum Pop. <br><br>
+>>>>>>> main
 
-      Früher konnten Kinder erst die Querflöte erlernen, wenn ihre Arme und Hände groß genug waren, um die große Querflöte zu
-      spielen. Heute gibt es für Kinder spezielle Instrumente (Flöte mit gebogenem Kopf, Waveline), die es Ihnen ermöglichen,
-      das Instrument früher zu erlernen. Sie müssen zu Beginn keine Flöte kaufen, es gibt Möglichkeiten, ein Instrument zu
-      leihen oder einen Leihkauf zu tätigen.
+          Früher konnten Kinder erst die Querflöte erlernen, wenn ihre Arme und Hände groß genug waren, um die große Querflöte zu
+          spielen. Heute gibt es für Kinder spezielle Instrumente (Flöte mit gebogenem Kopf, Waveline), die es Ihnen ermöglichen,
+          das Instrument früher zu erlernen. Sie müssen zu Beginn keine Flöte kaufen, es gibt Möglichkeiten, ein Instrument zu
+          leihen oder einen Leihkauf zu tätigen. <br><br>
 
-      Zu all diesen Fragen berate ich Sie gerne.
-    </p>
+          Zu all diesen Fragen berate ich Sie gerne.
+        </p>
+      </div>
+      <div class="flote-bild">
+        <img src="images/girl_flote.jpg" alt="Mädchen mit Querflöte" class="flotegirl">
+      </div>
+    </div>
   </section>
   <!-- Unterricht -->
   <section class="group white" id="unterricht">
@@ -170,11 +183,52 @@
   <section class="group orange" id="kontakt">
     <h2>Kontakt</h2>
     <p>Ich freue mich über Ihren Anruf oder eine Nachricht von Ihnen:</p>
-    <p>Rita Markgraf
-    Seeriederstr. 14a
-    81675 München
-    089/4481681
-    markgraf.rita@mnet-mail.de</p>
+      <!-- Your responsive signup form -->
+
+      <div class="form-container pt-10">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <form action="#">
+              <div class="form-row row row-cols">
+                <div class="col-6 form-group mb-3">
+                  <label for="first-name">Vorname</label>
+                  <input type="text" class="form-control" id="first-name" placeholder="Anna" required>
+                </div>
+                <div class="col-6 form-group mb-3">
+                  <label for="last-name">Nachname</label>
+                  <input type="text" class="form-control" id="last-name" placeholder="Waldorf">
+                </div>
+              </div>
+              <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="anna@gmail.com" required>
+              </div>
+              <div class="form-group mb-3">
+                <label for="password">Telefonnummer</label>
+                <input type="password" class="form-control" id="telefon" placeholder="+49-000-000-000">
+              </div>
+              <div class="form-group mb-3">
+                <label for="source">Interesiert über?</label>
+                <select id="source" class="form-control">
+                  <option value="">Gitar Unterricht</option>
+                  <option value="">Querflöte Unterricht</option>
+                </select>
+              </div>
+              <div class="form-group mb-3">
+                <label for="exampleFormControlTextarea1">Ihre Nachricht</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+              </div>
+              <input type="submit" value="Senden!" class="btn btn-primary btn-lg w-100">
+            </form>
+          </div>
+        </div>
+      </div>
+    <p class="contact-details"> <strong>Rita Markgraf</strong><br>
+    Seeriederstr. 14a<br>
+    81675 München<br>
+    089/4481681<br>
+    <a href="markgraf.rita@mnet-mail.de">markgraf.rita@mnet-mail.de</a>
+    </p>
   </section>
 </div>
 

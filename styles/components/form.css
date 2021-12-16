@@ -1,0 +1,23 @@
+
+label{
+  color: black;
+  border-radius: 25px;
+}
+
+.btn{
+  color: white;
+  background-color: orange;
+  border-color: orange !important;
+  transition: .3s;
+  border-radius: 25px;
+}
+
+.btn:hover{
+  background-color: white;
+  color: orange;
+  border-color: orange;
+}
+.form-container{
+  padding: 20px;
+  margin-bottom: 30px;
+}
