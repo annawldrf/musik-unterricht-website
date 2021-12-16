@@ -159,11 +159,52 @@
   <section class="group orange" id="kontakt">
     <h2>Kontakt</h2>
     <p>Ich freue mich über Ihren Anruf oder eine Nachricht von Ihnen:</p>
-    <p>Rita Markgraf
-    Seeriederstr. 14a
-    81675 München
-    089/4481681
-    markgraf.rita@mnet-mail.de</p>
+      <!-- Your responsive signup form -->
+
+      <div class="form-container pt-10">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <form action="#">
+              <div class="form-row row row-cols">
+                <div class="col-6 form-group mb-3">
+                  <label for="first-name">Vorname</label>
+                  <input type="text" class="form-control" id="first-name" placeholder="Anna" required>
+                </div>
+                <div class="col-6 form-group mb-3">
+                  <label for="last-name">Nachname</label>
+                  <input type="text" class="form-control" id="last-name" placeholder="Waldorf">
+                </div>
+              </div>
+              <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="anna@gmail.com" required>
+              </div>
+              <div class="form-group mb-3">
+                <label for="password">Telefonnummer</label>
+                <input type="password" class="form-control" id="telefon" placeholder="+49-000-000-000">
+              </div>
+              <div class="form-group mb-3">
+                <label for="source">Interesiert über?</label>
+                <select id="source" class="form-control">
+                  <option value="">Gitar Unterricht</option>
+                  <option value="">Querflöte Unterricht</option>
+                </select>
+              </div>
+              <div class="form-group mb-3">
+                <label for="exampleFormControlTextarea1">Ihre Nachricht</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+              </div>
+              <input type="submit" value="Senden!" class="btn btn-primary btn-lg w-100">
+            </form>
+          </div>
+        </div>
+      </div>
+    <p class="contact-details"> <strong>Rita Markgraf</strong><br>
+    Seeriederstr. 14a<br>
+    81675 München<br>
+    089/4481681<br>
+    <a href="markgraf.rita@mnet-mail.de">markgraf.rita@mnet-mail.de</a>
+    </p>
   </section>
 </div>
 

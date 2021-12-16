@@ -1,5 +1,6 @@
 @import 'components/navbar.css';
 @import 'components/timeline.css';
+@import 'components/form.css';
 
 /* Space on top of body so that navbar doesn't cover anything */
 
@@ -178,3 +179,15 @@ h2 {
 ul {
   padding-inline-start: 0;
 } */
+
+#kontakt h2, p{
+  text-align: center;
+}
+#kontakt a{
+  text-decoration: none;
+  color: black;
+}
+
+.contact-details{
+  text-align: center;
+}
