@@ -1,4 +1,5 @@
 @import 'components/navbar.css';
+@import 'components/timeline.css';
 
 /* Space on top of body so that navbar doesn't cover anything */
 
@@ -107,3 +108,38 @@ h2 {
   height: 471px;
   object-fit: cover;
 }
+
+.group {
+  padding: 0 40px;
+}
+
+.group.orange {
+  background-color: #FFDDAB;
+}
+
+#ubermich {
+  display: flex;
+}
+
+.item.left {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.item.right {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.item h2 {
+  text-align: center;
+}
+
+#playing-flute {
+  width: 90%;
+  border-radius: 25px;
+}
+/*
+ul {
+  padding-inline-start: 0;
+} */
