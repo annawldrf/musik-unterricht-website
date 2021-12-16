@@ -185,8 +185,8 @@ ul {
 
 .container-unterricht {
   display: grid;
-  justify-content:center;
-  align-items:center;
+  /* justify-content:center; */
+  /* align-items:center; */
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 14px 19px;
@@ -196,6 +196,7 @@ ul {
 
 .unterricht-text {
   grid-area: unterricht-text;
+  margin-inline-start: 80px;
 }
 
 .unterricht-preise {
@@ -204,12 +205,16 @@ ul {
   background-color: #FC9C0D;
   text-align: center;
   vertical-align: middle;
-    padding: 60px;
+  padding: 60px;
   width: 564px;
   height: 551px;
+}
 
+#kontakt h2 {
+  text-align: center;
+}
 
-#kontakt h2, p{
+#kontakt p {
   text-align: center;
 }
 #kontakt a{
@@ -217,7 +222,6 @@ ul {
   color: black;
 }
 
-.contact-details{
+.contact-details {
   text-align: center;
-
 }
