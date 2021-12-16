@@ -1,8 +1,59 @@
 @import 'components/navbar.css';
 
+/* Space on top of body so that navbar doesn't cover anything */
+
+.image-homepage{
+  border-radius: 25px;
+  width: 80%;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.image-homepage:hover {
+  transform: scale(1.05);
+}
+
+.container-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header rita-guitar"
+    "rita-flute text";
+}
+
+.header {
+  grid-area: header;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.rita-guitar {
+  grid-area: rita-guitar;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.rita-flute {
+  grid-area: rita-flute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.text {
+  grid-area: text;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 section{
   height: 100vh;
-  margin-top: 20px;
+  padding-top: 60px;
 }
 
 p {
@@ -10,6 +61,10 @@ p {
   font-size: 18;
   text-align: justify;
   text-align-last: none;
+}
+
+h1{
+  text-align: center;
 }
 
 h1, h2 {
