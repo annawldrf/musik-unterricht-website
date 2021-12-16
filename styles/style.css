@@ -180,6 +180,35 @@ ul {
   padding-inline-start: 0;
 } */
 
+
+/* Unterricht section styling */
+
+.container-unterricht {
+  display: grid;
+  justify-content:center;
+  align-items:center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 14px 19px;
+  grid-template-areas:
+    "unterricht-text unterricht-preise";
+}
+
+.unterricht-text {
+  grid-area: unterricht-text;
+}
+
+.unterricht-preise {
+  grid-area: unterricht-preise;
+  border-radius: 51px;
+  background-color: #FC9C0D;
+  text-align: center;
+  vertical-align: middle;
+    padding: 60px;
+  width: 564px;
+  height: 551px;
+
+
 #kontakt h2, p{
   text-align: center;
 }
@@ -190,4 +219,5 @@ ul {
 
 .contact-details{
   text-align: center;
+
 }
