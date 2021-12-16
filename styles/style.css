@@ -84,12 +84,12 @@ h1, h2 {
 }
 
 .item.left {
-  width: 40%;
-  margin-top: 30px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .item.right {
-  width: 60%;
+  width: 50%;
   margin-top: 30px;
 }
 
@@ -98,7 +98,7 @@ h1, h2 {
 }
 
 #playing-flute {
-  width: 80%;
+  width: 90%;
   border-radius: 25px;
 }
 /*
