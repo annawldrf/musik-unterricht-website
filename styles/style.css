@@ -76,14 +76,34 @@ h2 {
   margin-bottom: 20px;
 }
 
+
+/* guitar section styling */
+
+.container-gitarre {
+  display: grid;
+  justify-content:center;
+  align-items:center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 14px 19px;
+  grid-template-areas:
+    "gitarre-text gitarre-bild";
+}
+
+.gitarre-text {
+  grid-area: gitarre-text;
+}
+
+.gitarre-bild {
+  grid-area: gitarre-bild;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .guitargirl {
   border-radius: 51px;
-  width: 70%;
-  height: 65%;
+  width: 356px;
+  height: 471px;
   object-fit: cover;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  margin-left: 35px;
-  margin-top: 30px;
 }
