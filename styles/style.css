@@ -1,12 +1,13 @@
 @import 'components/navbar.css';
 @import 'components/timeline.css';
 @import 'components/form.css';
+@import 'components/impressum.css';
 
 
 
 /* general styling applying overall */
 
-section{
+section {
   height: 100vh;
   /* padding-top: 60px; */
 }
@@ -147,7 +148,6 @@ h2 {
   object-fit: cover;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
-
 
 
 .group {
