@@ -90,24 +90,6 @@
   }
 } */
 
-/* Variables */
-
-@background: #252827;
-
-@color-primary: #4298C3;
-@color-light: white;
-@spacing: 20px;
-@radius: 4px;
-
-@date: 120px;
-@dotborder: 4px;
-@dot: 11px;
-@line: 4px;
-
-@font-title: 'Oswald', sans-serif;
-@font-text: 'Source Sans Pro', sans-serif;
-
-/* Base */
 
 body {
   background: #FFDDAB;
@@ -119,7 +101,7 @@ strong {
 }
 
 h2 {
- font-family: @font-title;
+ font-family: 'PT Serif', serif;
  letter-spacing: 1.5px;
  color: black;
  font-weight: 100;
@@ -176,6 +158,14 @@ h2 {
   position: absolute;
   display: block;
   top: 0;
+  box-shadow: 0 0 0 4px fade(#FC9C0D,100%);
+  left: (4px + 4px + (11px * 0.35)) * -1;
+  background: #FC9C0D;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
 }
 
 .event:before {
@@ -186,15 +176,4 @@ h2 {
   font-weight: 100;
   font-size: 0.9em;
   min-width: 120px;
-}
-
-.event:after {
-  box-shadow: 0 0 0 4px fade(#FC9C0D,100%);
-  left: (4px + 4px + (11px * 0.35)) * -1;
-  background: #FC9C0D;
-  border-radius: 50%;
-  height: 11px;x
-  width: 11px;
-  content: "";
-  top: 5px;
 }
