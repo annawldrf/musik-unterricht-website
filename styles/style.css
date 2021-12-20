@@ -3,6 +3,30 @@
 @import 'components/form.css';
 
 /* Space on top of body so that navbar doesn't cover anything */
+section{
+  height: 100vh;
+  padding-top: 60px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18;
+  text-align: justify;
+  text-align-last: none;
+}
+
+h1{
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
 
 .image-homepage{
   border-radius: 25px;
@@ -53,30 +77,6 @@
   align-items:center;
 }
 
-section{
-  height: 100vh;
-  padding-top: 60px;
-}
-
-p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18;
-  text-align: justify;
-  text-align-last: none;
-}
-
-h1{
-  text-align: center;
-}
-
-h1, h2 {
-  font-family: 'PT Serif', serif;
-  font-weight: bold;
-}
-
-h2 {
-  margin-bottom: 20px;
-}
 
 
 /* guitar section styling */
