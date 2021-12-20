@@ -20,16 +20,14 @@
   /* background: fade(@color-light, 3%); */
   color: black;
   font-family: 'Poppins', sans-serif;
-  margin-right: 40px;
+  margin: 0 auto;
   letter-spacing: 0.5px;
   position: relative;
   line-height: 1.4em;
-  font-size: 1.03em;
-  padding: 4px;
+  padding: 0 20px;
   list-style: none;
   text-align: left;
-  font-weight: 100;
-  max-width: 60%;
+  max-width: 80%;
 }
 
 .event {
@@ -53,10 +51,11 @@
   left: (4px + 4px + (11px * 0.35)) * -1;
   background: #FC9C0D;
   border-radius: 50%;
-  height: 11px;
-  width: 11px;
+  height: 16px;
+  width: 16px;
   content: "";
   top: 5px;
+  left: -30px;
 }
 
 .event:before {
