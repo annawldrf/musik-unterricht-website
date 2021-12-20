@@ -7,10 +7,6 @@
 
 /* general styling applying overall */
 
-section {
-  height: 100vh;
-  /* padding-top: 60px; */
-}
 
 p {
   font-family: 'Poppins', sans-serif;
@@ -26,17 +22,19 @@ h1{
 h1, h2 {
   font-family: 'PT Serif', serif;
   font-weight: bold;
-}
-
-h2 {
   margin-bottom: 20px;
 }
 
-/* Space on top of body so that navbar doesn't cover anything */
+section{
+  height: 95vh;
+  scroll-margin-top: 5vh;
+}
+
+/* HOME */
 
 .image-homepage{
   border-radius: 25px;
-  width: 80%;
+  width: 65%;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
@@ -48,11 +46,13 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 40px 20px;
+  gap: 40px 0;
   grid-auto-flow: row;
   grid-template-areas:
     "header rita-guitar"
     "rita-flute text";
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header {
@@ -83,6 +83,37 @@ h2 {
   align-items:center;
 }
 
+/* Uber Mich */
+
+.group.orange {
+  background-color: #FFDDAB;
+}
+
+#ubermich {
+  display: flex;
+}
+
+.item.left {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.item.right {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.item h2 {
+  text-align: center;
+}
+
+#playing-flute {
+  width: 80%;
+  border-radius: 25px;
+  margin-left: 60px;
+  vertical-align: middle;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
 
 /* guitar section styling */
 
@@ -161,35 +192,6 @@ h2 {
   align-items: center;
 }
 
-.group.orange {
-  background-color: #FFDDAB;
-}
-
-#ubermich {
-  display: flex;
-}
-
-.item.left {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.item.right {
-  width: 50%;
-  margin-top: 30px;
-}
-
-.item h2 {
-  text-align: center;
-}
-
-#playing-flute {
-  width: 80%;
-  border-radius: 25px;
-  margin-left: 60px;
-  vertical-align: middle;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
 
 /*
 ul {
