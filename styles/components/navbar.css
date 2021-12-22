@@ -7,8 +7,7 @@ z-index: 1;
 }
 
 nav .container {
-width: 90%;
-max-width: 1000px;
+width: 80%;
 margin: 0 auto;
 text-align: center;
 padding: 10px;
@@ -16,6 +15,9 @@ padding: 10px;
 
 nav .container ul {
 margin-bottom: 0px;
+padding: 0;
+display: flex;
+justify-content: space-around;
 }
 nav .container ul li {
 display: inline-block;
@@ -25,9 +27,17 @@ border-radius:5px;
 nav .container ul li a {
 display: inline-block;
 text-decoration: none;
-padding: 10px 20px;
+padding: 10px 30px;
 color: black;
+border-radius: 30px;
 }
+
+nav .container ul li a:hover{
+background-color: rgba(244, 165, 64, 0.5);
+border-radius:30px;
+transition: 0.3s;
+}
+
 nav .container ul li.active {
 background-color: orange;
 border-radius:30px;
