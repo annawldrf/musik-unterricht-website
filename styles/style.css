@@ -150,9 +150,7 @@ section{
 
 .guitargirl {
   border-radius: 51px;
-  width: 356px;
-  height: 471px;
-  object-fit: cover;
+  width: 45%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 
 }
@@ -184,9 +182,7 @@ section{
 
 .flotegirl {
   border-radius: 51px;
-  width: 356px;
-  height: 471px;
-  object-fit: cover;
+  width: 60%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
@@ -225,12 +221,21 @@ section{
   grid-area: unterricht-preise;
   border-radius: 51px;
   background-color: #FC9C0D;
-  text-align: center;
-  vertical-align: middle;
-  padding: 60px;
+  padding: 40px;
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.unterricht-preise p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.unterricht-preise h2 {
+  margin-bottom: 18px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* kontakt styling */
