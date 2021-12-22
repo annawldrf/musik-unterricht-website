@@ -24,13 +24,11 @@ h1{
 h1, h2 {
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 section{
-  height: 100vh;
-  scroll-margin-top: 5vh;
-  box-sizing: border-box;
+  height: 100%;
 }
 
 /* HOME */
@@ -55,7 +53,7 @@ section{
     "header rita-guitar"
     "rita-flute text";
   width: 90%;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .header {
@@ -93,20 +91,22 @@ section{
   display: flex;
 }
 
-#ubermich {
+.ubermich-section {
   display: flex;
+  margin: 60px 60px;
 }
 
 .item.left {
   width: 50%;
   text-align: center;
   margin-left: 40px;
+  position: relative;
 }
 
 .item.right {
   width: 65%;
-  margin-top: 30px;
-  margin-right: 50px;
+  /* margin-top: 30px; */
+  /* margin-right: 50px; */
 }
 
 .item h2 {
@@ -116,8 +116,10 @@ section{
 #playing-flute {
   width: 80%;
   border-radius: 25px;
-  margin: 0 auto;
-  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
