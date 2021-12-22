@@ -179,6 +179,19 @@
   </div>
   </section>
   <section class="group orange" id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Ich freue mich &uuml;ber Ihren Anruf oder eine Nachricht von Ihnen:</p>
+      <!-- Your responsive signup form -->
+
+      <div class="form-container pt-10">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <form action="https://formsubmit.co/paula.garciadv@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="form-row row row-cols">
+                <div class="col-6 form-group mb-3">
+                  <label for="first-name">Vorname</label>
+                  <input type="text" class="form-control" id="first-name" placeholder="Anna" required>
     <div class="kontakt-container">
       <h2>Kontakt</h2>
       <p>Ich freue mich &uuml;ber Ihren Anruf oder eine Nachricht von Ihnen:</p>
@@ -202,6 +215,28 @@
                   <label for="email">Email</label>
                   <input type="email" class="form-control" id="email" placeholder="anna@gmail.com" required>
                 </div>
+              </div>
+              <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" name= "email" class="form-control" id="email" placeholder="anna@gmail.com" required>
+              </div>
+              <div class="form-group mb-3">
+                <label for="phonenumber">Telefonnummer</label>
+                <input type="phonenumber" class="form-control" id="telefon" placeholder="+49-0000-000-000">
+              </div>
+              <div class="form-group mb-3">
+                <label for="source">Interesiert an?</label>
+                <select id="source" class="form-control">
+                  <option value="">Gitarren Unterricht</option>
+                  <option value="">Querfl&ouml;ten Unterricht</option>
+                </select>
+              </div>
+              <div class="form-group mb-3">
+                <label for="exampleFormControlTextarea1">Ihre Nachricht</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+              </div>
+              <input type="submit" value="Senden!" class="btn btn-primary btn-lg w-100">
+            </form>
                 <div class="form-group mb-3">
                   <label for="phonenumber">Telefonnummer</label>
                   <input type="phonenumber" class="form-control" id="telefon" placeholder="+49-0000-000-000">
