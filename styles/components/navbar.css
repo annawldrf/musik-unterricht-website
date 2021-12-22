@@ -7,17 +7,17 @@ z-index: 1;
 }
 
 nav .container {
-width: 80%;
+width: 100%;
 margin: 0 auto;
 text-align: center;
-padding: 10px;
+padding: 10px 0px;
 }
 
 nav .container ul {
 margin-bottom: 0px;
 padding: 0;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 }
 nav .container ul li {
 display: inline-block;
