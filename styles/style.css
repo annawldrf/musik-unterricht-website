@@ -237,7 +237,7 @@ section{
 
 #kontakt {
   display: block;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 #kontakt h2 {
   text-align: center;
@@ -250,6 +250,10 @@ section{
 #kontakt a{
   text-decoration: none;
   color: black;
+}
+
+.kontakt-container {
+  padding: 60px;
 }
 
 .contact-details {
