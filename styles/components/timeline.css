@@ -30,6 +30,14 @@
   padding-left: 10px;
 }
 
+#list {
+  margin-bottom: 0 !important;
+}
+
+#spacing-top {
+  margin-top: 20px;
+}
+
 .event {
   border-bottom: 1px dashed fade(#FC9C0D, 10%);
   padding-bottom: (4px * 0.5);

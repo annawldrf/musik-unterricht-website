@@ -133,6 +133,7 @@ section{
   grid-template-rows: 1fr;
   grid-template-areas:
     "gitarre-text gitarre-bild";
+  margin: 60px;
 }
 
 .gitarre-text {
@@ -166,6 +167,7 @@ section{
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "flote-bild flote-text";
+  margin: 60px;
 }
 
 .flote-text {
@@ -211,6 +213,7 @@ section{
   gap: 14px 80px;
   grid-template-areas:
     "unterricht-text unterricht-preise";
+  margin: 60px;
 }
 
 .unterricht-text {
