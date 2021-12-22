@@ -6,7 +6,9 @@
 
 
 /* general styling applying overall */
-
+body {
+  margin: 0;
+}
 
 p {
   font-family: 'Poppins', sans-serif;
@@ -26,8 +28,9 @@ h1, h2 {
 }
 
 section{
-  height: 95vh;
+  height: 100vh;
   scroll-margin-top: 5vh;
+  box-sizing: border-box;
 }
 
 /* HOME */
@@ -51,7 +54,7 @@ section{
   grid-template-areas:
     "header rita-guitar"
     "rita-flute text";
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -87,6 +90,7 @@ section{
 
 .group.orange {
   background-color: #FFDDAB;
+  display: flex;
 }
 
 #ubermich {
@@ -95,12 +99,14 @@ section{
 
 .item.left {
   width: 50%;
-  margin: 0 auto;
+  text-align: center;
+  margin-left: 40px;
 }
 
 .item.right {
-  width: 50%;
+  width: 65%;
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .item h2 {
@@ -110,7 +116,7 @@ section{
 #playing-flute {
   width: 80%;
   border-radius: 25px;
-  margin-left: 60px;
+  margin: 0 auto;
   vertical-align: middle;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -192,12 +198,6 @@ section{
   align-items: center;
 }
 
-
-/*
-ul {
-  padding-inline-start: 0;
-} */
-
 /* Unterricht section styling */
 
 .container-unterricht {
@@ -223,8 +223,8 @@ ul {
   text-align: center;
   vertical-align: middle;
   padding: 60px;
-  width: 564px;
-  height: 551px;
+  width: 75%;
+  margin: 0 auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
