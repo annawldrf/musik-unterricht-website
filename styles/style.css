@@ -348,3 +348,78 @@ section{
     font-weight: bold;
 }
 /* Popup box BEGIN */
+
+@media only screen and (max-width: 768px) {
+  .container-home {
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .image-homepage {
+    margin-bottom: 20px;
+  }
+
+  .ubermich-section {
+    display: block;
+  }
+
+  .timeline {
+    max-width: 100%;
+  }
+
+  .item.right {
+    width: 100%;
+  }
+
+  #playing-flute {
+    display: none;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .container-gitarre {
+    display: block;
+  }
+
+  .gitarre-text {
+    margin-inline-start: 0px;
+  }
+
+  .guitargirl {
+    width: 60%;
+    margin-top: 20px;
+  }
+
+  .container-flote {
+    display: block;
+  }
+
+  .flote-text {
+    margin-inline-end: 0px;
+  }
+
+  .flotegirl {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .container-unterricht {
+    display: block;
+  }
+
+  .unterricht-text {
+    margin-inline-start: 0px;
+  }
+
+  .unterricht-preise {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
